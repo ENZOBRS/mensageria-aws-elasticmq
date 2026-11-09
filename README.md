@@ -23,7 +23,7 @@ Caminho A: ElasticMQ local rodando no Docker.
 
 ### 1. Mensagem Inválida e Timeout
 Comportamento da mensagem sem ID a entrar em loop de repetição pelo Visibility Timeout:
-![Mensagem Erro Timeout](evidencias/mensagem_erro_timeout.png)
+![Mensagem Erro Timeout](mensagem_invalida_voltando.png)
 
 ### 2. Balanceamento de Carga (Dois Consumidores)
 Divisão das mensagens entre os dois terminais consumidores:
